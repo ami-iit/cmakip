@@ -1,0 +1,16 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "wheel",
+    "setuptools>=45",
+    "setuptools_scm[toml]>=6.2",
+]
+
+# https://github.com/psf/black
+[tool.black]
+line-length = 88
+
+# https://github.com/PyCQA/isort
+[tool.isort]
+profile = "black"
+multi_line_output = 3
