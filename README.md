@@ -11,7 +11,7 @@ Instead for CMake/C++ projects it is necessary to manually run `mkdir build && c
 First of all, make sure that you are in a conda environment or a Python virtual environment, then you can install `cmakip` as:
 
 ~~~bash
-pip install --no-deps git+https://github.com/ami-iit/cmakip"
+pip install --no-deps git+https://github.com/ami-iit/cmakip
 ~~~
 
 ## Usage
