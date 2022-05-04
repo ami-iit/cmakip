@@ -47,7 +47,7 @@ cmakip uninstall .
 `cmakip` can also be used to install CMake libraries from a repo:
  
 ~~~bash
-cmake install git+https://github.com/fmtlib/fmt
+cmakip install git+https://github.com/fmtlib/fmt
 ~~~
 
 This automatically clone the repo in `${CONDA_PREFIX}\src` or `${VIRTUAL_ENV}\src`, and then installs it.
